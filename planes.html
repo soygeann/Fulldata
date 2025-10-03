@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fulldata - Planes Residenciales</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="cursor-dot"></div>
+    <div class="cursor-ring"></div>
+
+    <header class="navbar fixed-navbar" id="navbar">
+      <a href="index.html" class="logo">
+        <img src="assets/logo.png" alt="Fulldata Logo" class="logo-img">
+      </a>
+      <div class="nav-links">
+        <a href="planes.html" class="nav-item">Planes</a>
+        <a href="nosotros.html" class="nav-item">Nosotros</a>
+        <a href="ayuda.html" class="nav-item">Ayuda</a>
+        <a href="https://wa.me/584122853855" class="nav-item">Contacto</a>
+      </div>
+      <div class="nav-buttons">
+        <a href="https://payments.neogisp.com/website_payment_ve/PGC-00005" class="nav-button">Pagar</a>
+        <a href="https://erp.fulldata.com.ve/contratar" class="nav-button">Contratar</a>
+      </div>
+    </header>
+
+    <!-- HERO SECTION PARA PLANES -->
+    <section class="video-hero-section">
+      <div class="video-hero-container" id="videoHeroContainer">
+        <video id="myVideo" src="assets/planes-video.mp4" autoplay muted loop></video>
+      </div>
+      <div class="page-wrapper hero-section">
+        <main class="main-content">
+          <h1 class="hero-title">
+            <span class="word-wrap"><span class="word-animation">Planes</span></span>
+            <span class="word-wrap"><span class="word-animation animated-text">Residenciales</span></span>
+          </h1>
+          <p class="hero-description">
+            Servicio excepcional para hogares, con la mayor calidad, rapidez y estabilidad<br>
+            para garantizar un acceso a internet nuevo y sin interrupciones.
+          </p>
+          <button class="center-button">¡Ver Planes Disponibles!</button>
+        </main>
+      </div>
+    </section>
+
+    <!-- SECCIÓN DE PLANES -->
+    <section class="scroll-section white-section plans-section">
+      <div class="plans-container">
+        <h2 class="section-title">Nuestros Planes de <span class="accent">Internet por Fibra Óptica</span></h2>
+        <p class="section-subtitle">Elige el plan que mejor se adapte a tus necesidades</p>
+        
+        <div class="plans-grid">
+            <!-- Plan Mini -->
+            <div class="plan-card">
+              <div class="plan-header">
+                <h3 class="plan-name">Plan Mini</h3>
+                <div class="speed-gauge">
+                    <svg class="gauge-bg" viewBox="0 0 120 60">
+                        <defs>
+                            <linearGradient id="gaugeGradient1" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" stop-color="#31006f" />
+                                <stop offset="100%" stop-color="#3cbbeb" />
+                            </linearGradient>
+                        </defs>
+                        <path class="gauge-track" d="M10,55 A50,50 0 0,1 110,55" />
+                        <path class="gauge-fill" d="M10,55 A50,50 0 0,1 110,55" />
+                    </svg>
+                  <div class="speed-value">
+                    <span class="speed-number" data-speed="600">0</span>
+                    <span class="speed-unit">Mbps</span>
+                  </div>
+                </div>
+              </div>
+              <div class="plan-features">
+                <ul>
+                  <li>✓ Velocidad simétrica 600 Mbps</li>
+                  <li>✓ Conexión fibra óptica</li>
+                  <li>✓ Sin límite de datos</li>
+                  <li>✓ Soporte técnico 24/7</li>
+                  <li>✓ Instalación gratuita</li>
+                </ul>
+              </div>
+              <button class="plan-button">Contratar</button>
+            </div>
+          
+            <!-- Plan Básico -->
+            <div class="plan-card">
+              <div class="plan-header">
+                <h3 class="plan-name">Plan Lite</h3>
+                <div class="speed-gauge">
+                  <svg class="gauge-bg" viewBox="0 0 120 60">
+                    <path class="gauge-track" d="M10,55 A50,50 0 0,1 110,55" />
+                    <path class="gauge-fill" d="M10,55 A50,50 0 0,1 110,55" />
+                  </svg>
+                  <div class="speed-value">
+                    <span class="speed-number" data-speed="800">0</span>
+                    <span class="speed-unit">Mbps</span>
+                  </div>
+                </div>
+              </div>
+              <div class="plan-features">
+                <ul>
+                  <li>✓ Velocidad simétrica 800 Mbps</li>
+                  <li>✓ Conexión fibra óptica</li>
+                  <li>✓ Sin límite de datos</li>
+                  <li>✓ Soporte técnico 24/7</li>
+                  <li>✓ Instalación gratuita</li>
+                  <li>✓ Streaming en 4K, gaming casual y navegación intensiva</li>
+                </ul>
+              </div>
+              <button class="plan-button">Contratar</button>
+            </div>
+          
+            <!-- Plan Avanzado -->
+            <div class="plan-card plan-featured">
+              <div class="plan-badge">Más Popular</div>
+              <div class="plan-header">
+                <h3 class="plan-name">Plan Ultra</h3>
+                <div class="speed-gauge">
+                  <svg class="gauge-bg" viewBox="0 0 120 60">
+                    <path class="gauge-track" d="M10,55 A50,50 0 0,1 110,55" />
+                    <path class="gauge-fill" d="M10,55 A50,50 0 0,1 110,55" />
+                  </svg>
+                  <div class="speed-value">
+                    <span class="speed-number" data-speed="1000">0</span>
+                    <span class="speed-unit">Mbps</span>
+                  </div>
+                </div>
+              </div>
+              <div class="plan-features">
+                <ul>
+                  <li>✓ Velocidad simétrica 1 Gbps</li>
+                  <li>✓ Conexión fibra óptica</li>
+                  <li>✓ Sin límite de datos</li>
+                  <li>✓ Soporte técnico prioritario</li>
+                  <li>✓ Instalación gratuita</li>
+                  <li>✓ Juegos en línea con baja latencia y máxima fluidez.
+                  </li>
+                </ul>
+              </div>
+              <button class="plan-button featured">Contratar</button>
+            </div>
+          
+            <!-- Plan Premium -->
+            <div class="plan-card">
+              <div class="plan-header">
+                <h3 class="plan-name">Plan Meta</h3>
+                <div class="speed-gauge">
+                  <svg class="gauge-bg" viewBox="0 0 120 60">
+                    <path class="gauge-track" d="M10,55 A50,50 0 0,1 110,55" />
+                    <path class="gauge-fill" d="M10,55 A50,50 0 0,1 110,55" />
+                  </svg>
+                  <div class="speed-value">
+                    <span class="speed-number" data-speed="2500">0</span>
+                    <span class="speed-unit">Mbps</span>
+                  </div>
+                </div>
+              </div>
+              <div class="plan-features">
+                <ul>
+                  <li>✓ Velocidad simétrica 2.5 Gbps</li>
+                  <li>✓ Conexión fibra óptica</li>
+                  <li>✓ Sin límite de datos</li>
+                  <li>✓ Soporte técnico premium</li>
+                  <li>✓ Instalación gratuita</li>
+                  <li>✓ Juegos en línea con baja latencia y máxima fluidez.</li>
+                  <li>✓ Streaming en ultra alta definición sin buffering.</li>
+                </ul>
+              </div>
+              <button class="plan-button">Contratar</button>
+            </div>
+          </div>
+
+        <!-- Información adicional -->
+        <div class="plans-info">
+          <div class="info-card">
+            <h4>💡 ¿No sabes qué plan elegir?</h4>
+            <p>Nuestros asesores te ayudarán a seleccionar el plan perfecto según tu consumo y necesidades.</p>
+            <a href="https://wa.me/584122853855" class="info-button">Consultar con un asesor</a>
+          </div>
+          
+          <div class="info-card">
+            <h4>🎁 Promociones Especiales</h4>
+            <p>Obtén descuentos y beneficios exclusivos al cambiarte de proveedor.</p>
+            <a href="index.html#cambio" class="info-button">Ver promociones</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+       
+    
+    <!-- SECCIÓN PLANES PYME (TEMA OSCURO) -->
+<section class="scroll-section pyme-section">
+  <div class="plans-container">
+    <h2 class="section-title">Planes para <span class="accent">PYMES</span></h2>
+    <p class="section-subtitle">Soluciones empresariales escalables para tu negocio.</p>
+
+    <!-- Toggle Switch para regiones - SOLO 2 OPCIONES -->
+    <div class="region-toggle">
+      <div class="toggle-container">
+        <button class="toggle-btn active" data-region="zulia">Zulia</button>
+        <button class="toggle-btn" data-region="caracas-caucagua">Caracas y Caucagua</button>
+        <div class="toggle-slider"></div>
+      </div>
+    </div>
+    
+    <!-- Contenedor para los planes -->
+    <div class="plans-content">
+      <!-- Planes Zulia (por defecto) -->
+      <div class="plans-region active" data-region="zulia">
+        <div class="plans-grid">
+          <!-- Plan PYME Básico Zulia -->
+          <div class="plan-card pyme-card">
+            <div class="plan-header">
+              <h3 class="plan-name">Full Mini</h3>
+              <div class="speed-gauge">
+                <svg class="gauge-bg" viewBox="0 0 120 60">
+                  <defs>
+                    <linearGradient id="pymeGradient1" x1="0%" y1="0%" x2="100%" y2="0%">
+                      <stop offset="0%" stop-color="#3cbbeb" />
+                      <stop offset="100%" stop-color="#ffffff" />
+                    </linearGradient>
+                  </defs>
+                  <path class="gauge-track" d="M10,55 A50,50 0 0,1 110,55" />
+                  <path class="gauge-fill" d="M10,55 A50,50 0 0,1 110,55" />
+                </svg>
+                <div class="speed-value">
+                  <span class="speed-number" data-speed="600">0</span>
+                  <span class="speed-unit">Mbps</span>
+                </div>
+              </div>
+            </div>
+            <div class="plan-features">
+              <ul>
+                <li>✓ Velocidad simétrica 600 Mbps</li>
+                <li>✓ Conexión fibra óptica</li>
+                <li>✓ Sin límite de datos</li>
+                <li>✓ Soporte técnico 24/7</li>
+                <li>✓ Instalación gratuita</li>
+              </ul>
+            </div>
+            <button class="plan-button pyme-button">Cotizar</button>
+          </div>
+
+          <!-- Plan PYME Lite Zulia -->
+          <div class="plan-card pyme-card plan-featured">
+            <div class="plan-badge">Recomendado</div>
+            <div class="plan-header">
+              <h3 class="plan-name">Full Lite</h3>
+              <div class="speed-gauge">
+                <svg class="gauge-bg" viewBox="0 0 120 60">
+                  <defs>
+                    <linearGradient id="pymeGradient2" x1="0%" y1="0%" x2="100%" y2="0%">
+                      <stop offset="0%" stop-color="#3cbbeb" />
+                      <stop offset="100%" stop-color="#ffffff" />
+                    </linearGradient>
+                  </defs>
+                  <path class="gauge-track" d="M10,55 A50,50 0 0,1 110,55" />
+                  <path class="gauge-fill" d="M10,55 A50,50 0 0,1 110,55" />
+                </svg>
+                <div class="speed-value">
+                  <span class="speed-number" data-speed="800">0</span>
+                  <span class="speed-unit">Mbps</span>
+                </div>
+              </div>
+            </div>
+            <div class="plan-features">
+              <ul>
+                <li>✓ Velocidad simétrica 800 Mbps</li>
+                <li>✓ Conexión fibra óptica</li>
+                <li>✓ Sin límite de datos</li>
+                <li>✓ Soporte técnico 24/7</li>
+                <li>✓ Instalación gratuita</li>
+                <li>✓ Streaming en 4K, gaming casual y navegación intensiva</li>
+              </ul>
+            </div>
+            <button class="plan-button pyme-button featured">Cotizar</button>
+          </div>
+
+          <!-- Plan PYME Ultra Zulia -->
+          <div class="plan-card pyme-card">
+            <div class="plan-header">
+              <h3 class="plan-name">Full Ultra</h3>
+              <div class="speed-gauge">
+                <svg class="gauge-bg" viewBox="0 0 120 60">
+                  <defs>
+                    <linearGradient id="pymeGradient3" x1="0%" y1="0%" x2="100%" y2="0%">
+                      <stop offset="0%" stop-color="#3cbbeb" />
+                      <stop offset="100%" stop-color="#ffffff" />
+                    </linearGradient>
+                  </defs>
+                  <path class="gauge-track" d="M10,55 A50,50 0 0,1 110,55" />
+                  <path class="gauge-fill" d="M10,55 A50,50 0 0,1 110,55" />
+                </svg>
+                <div class="speed-value">
+                  <span class="speed-number" data-speed="1000">0</span>
+                  <span class="speed-unit">Gbps</span>
+                </div>
+              </div>
+            </div>
+            <div class="plan-features">
+              <ul>
+                <li>✓ Velocidad simétrica 1 Gbps</li>
+                <li>✓ Conexión fibra óptica dedicada</li>
+                <li>✓ Pool de IP públicas</li>
+                <li>✓ Soporte técnico prioritario 24/7</li>
+                <li>✓ Instalación profesional</li>
+                <li>✓ Monitorización 24/7</li>
+                <li>✓ Sin límite de datos</li>
+              </ul>
+            </div>
+            <button class="plan-button pyme-button">Cotizar</button>
+          </div>
+
+          <!-- Plan PYME Meta Zulia -->
+          <div class="plan-card pyme-card">
+            <div class="plan-header">
+              <h3 class="plan-name">Full Meta</h3>
+              <div class="speed-gauge">
+                <svg class="gauge-bg" viewBox="0 0 120 60">
+                  <defs>
+                    <linearGradient id="pymeGradient4" x1="0%" y1="0%" x2="100%" y2="0%">
+                      <stop offset="0%" stop-color="#3cbbeb" />
+                      <stop offset="100%" stop-color="#ffffff" />
+                    </linearGradient>
+                  </defs>
+                  <path class="gauge-track" d="M10,55 A50,50 0 0,1 110,55" />
+                  <path class="gauge-fill" d="M10,55 A50,50 0 0,1 110,55" />
+                </svg>
+                <div class="speed-value">
+                  <span class="speed-number" data-speed="2500">0</span>
+                  <span class="speed-unit">Gbps</span>
+                </div>
+              </div>
+            </div>
+            <div class="plan-features">
+              <ul>
+                <li>✓ Velocidad simétrica 2.5 Gbps</li>
+                <li>✓ Conexión fibra óptica dedicada</li>
+                <li>✓ Pool completo de IP públicas</li>
+                <li>✓ Instalación profesional avanzada</li>
+                <li>✓ Consultoría IT incluida</li>
+                <li>✓ Sin límite de datos</li>
+                <li>✓ Soporte técnico premium</li>
+              </ul>
+            </div>
+            <button class="plan-button pyme-button">Cotizar</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Planes Caracas y Caucagua -->
+      <div class="plans-region" data-region="caracas-caucagua">
+        <div class="plans-grid">
+          <!-- Plan PYME Básico Caracas/Caucagua -->
+          <div class="plan-card pyme-card">
+            <div class="plan-header">
+              <h3 class="plan-name">Full Mini</h3>
+              <div class="speed-gauge">
+                <svg class="gauge-bg" viewBox="0 0 120 60">
+                  <defs>
+                    <linearGradient id="pymeGradient1" x1="0%" y1="0%" x2="100%" y2="0%">
+                      <stop offset="0%" stop-color="#3cbbeb" />
+                      <stop offset="100%" stop-color="#ffffff" />
+                    </linearGradient>
+                  </defs>
+                  <path class="gauge-track" d="M10,55 A50,50 0 0,1 110,55" />
+                  <path class="gauge-fill" d="M10,55 A50,50 0 0,1 110,55" />
+                </svg>
+                <div class="speed-value">
+                  <span class="speed-number" data-speed="400">0</span>
+                  <span class="speed-unit">Mbps</span>
+                </div>
+              </div>
+            </div>
+            <div class="plan-features">
+              <ul>
+                <li>✓ Velocidad simétrica 400 Mbps</li>
+                <li>✓ Conexión fibra óptica dedicada</li>
+                <li>✓ IP pública incluida</li>
+                <li>✓ Soporte técnico prioritario 24/7</li>
+                <li>✓ Instalación profesional</li>
+                <li>✓ Router empresarial</li>
+              </ul>
+            </div>
+            <button class="plan-button pyme-button">Cotizar</button>
+          </div>
+
+          <!-- Plan PYME Lite Caracas/Caucagua -->
+          <div class="plan-card pyme-card plan-featured">
+            <div class="plan-badge">Recomendado</div>
+            <div class="plan-header">
+              <h3 class="plan-name">Full Lite</h3>
+              <div class="speed-gauge">
+                <svg class="gauge-bg" viewBox="0 0 120 60">
+                  <defs>
+                    <linearGradient id="pymeGradient2" x1="0%" y1="0%" x2="100%" y2="0%">
+                      <stop offset="0%" stop-color="#3cbbeb" />
+                      <stop offset="100%" stop-color="#ffffff" />
+                    </linearGradient>
+                  </defs>
+                  <path class="gauge-track" d="M10,55 A50,50 0 0,1 110,55" />
+                  <path class="gauge-fill" d="M10,55 A50,50 0 0,1 110,55" />
+                </svg>
+                <div class="speed-value">
+                  <span class="speed-number" data-speed="600">0</span>
+                  <span class="speed-unit">Mbps</span>
+                </div>
+              </div>
+            </div>
+            <div class="plan-features">
+              <ul>
+                <li>✓ Velocidad simétrica 600 Mbps</li>
+                <li>✓ Conexión fibra óptica dedicada</li>
+                <li>✓ Múltiples IP públicas</li>
+                <li>✓ Soporte técnico premium 24/7</li>
+                <li>✓ Instalación profesional</li>
+                <li>✓ Router empresarial avanzado</li>
+                <li>✓ SLA 99.9% uptime</li>
+              </ul>
+            </div>
+            <button class="plan-button pyme-button featured">Cotizar</button>
+          </div>
+
+          <!-- Plan PYME Ultra Caracas/Caucagua -->
+          <div class="plan-card pyme-card">
+            <div class="plan-header">
+              <h3 class="plan-name">Full Ultra</h3>
+              <div class="speed-gauge">
+                <svg class="gauge-bg" viewBox="0 0 120 60">
+                  <defs>
+                    <linearGradient id="pymeGradient3" x1="0%" y1="0%" x2="100%" y2="0%">
+                      <stop offset="0%" stop-color="#3cbbeb" />
+                      <stop offset="100%" stop-color="#ffffff" />
+                    </linearGradient>
+                  </defs>
+                  <path class="gauge-track" d="M10,55 A50,50 0 0,1 110,55" />
+                  <path class="gauge-fill" d="M10,55 A50,50 0 0,1 110,55" />
+                </svg>
+                <div class="speed-value">
+                  <span class="speed-number" data-speed="1000">0</span>
+                  <span class="speed-unit">Gbps</span>
+                </div>
+              </div>
+            </div>
+            <div class="plan-features">
+              <ul>
+                <li>✓ Velocidad simétrica 1 Gbps</li>
+                <li>✓ Conexión fibra óptica dedicada</li>
+                <li>✓ Pool de IP públicas</li>
+                <li>✓ Soporte técnico prioritario 24/7</li>
+                <li>✓ Instalación profesional</li>
+                <li>✓ Monitorización 24/7</li>
+                <li>✓ Sin límite de datos</li>
+              </ul>
+            </div>
+            <button class="plan-button pyme-button">Cotizar</button>
+          </div>
+
+          <!-- Plan PYME Meta Caracas/Caucagua -->
+          <div class="plan-card pyme-card">
+            <div class="plan-header">
+              <h3 class="plan-name">Full Meta</h3>
+              <div class="speed-gauge">
+                <svg class="gauge-bg" viewBox="0 0 120 60">
+                  <defs>
+                    <linearGradient id="pymeGradient4" x1="0%" y1="0%" x2="100%" y2="0%">
+                      <stop offset="0%" stop-color="#3cbbeb" />
+                      <stop offset="100%" stop-color="#ffffff" />
+                    </linearGradient>
+                  </defs>
+                  <path class="gauge-track" d="M10,55 A50,50 0 0,1 110,55" />
+                  <path class="gauge-fill" d="M10,55 A50,50 0 0,1 110,55" />
+                </svg>
+                <div class="speed-value">
+                  <span class="speed-number" data-speed="2500">0</span>
+                  <span class="speed-unit">Gbps</span>
+                </div>
+              </div>
+            </div>
+            <div class="plan-features">
+              <ul>
+                <li>✓ Velocidad simétrica 2.5 Gbps</li>
+                <li>✓ Conexión fibra óptica dedicada</li>
+                <li>✓ Pool completo de IP públicas</li>
+                <li>✓ Instalación profesional avanzada</li>
+                <li>✓ Consultoría IT incluida</li>
+                <li>✓ Sin límite de datos</li>
+                <li>✓ Soporte técnico premium</li>
+              </ul>
+            </div>
+            <button class="plan-button pyme-button">Cotizar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Información adicional PYME -->
+    <div class="plans-info pyme-info">
+      <div class="info-card pyme-info-card">
+        <h4>🏢 Soluciones a Medida</h4>
+        <p>¿Necesitas un plan personalizado para tu empresa? Contáctanos para una cotización especial.</p>
+        <a href="https://wa.me/584122853855" class="info-button pyme-info-button">Solicitar Cotización</a>
+      </div>
+      
+      <div class="info-card pyme-info-card">
+        <h4>🔧 Servicios Adicionales</h4>
+        <p>Redes empresariales, cámaras de seguridad, hosting y más servicios para tu negocio.</p>
+        <a href="servicios.html" class="info-button pyme-info-button">Ver Servicios</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- FOOTER -->
+    <footer class="footer-full-data">
+        <div class="footer-overlay"></div>
+        <div class="footer-main-content">
+          <!-- Columna 1: Logo y slogan -->
+          <a href="index.html" class="footer-col footer-col-logo">
+            <img src="assets/logo.png" alt="FULLDATA COMUNICACIONES" class="footer-logo"/>
+            <div class="footer-slogan">Conectados contigo</div>
+          </a>
+          <!-- Columna 2: Contacto central -->
+          <a href="https://wa.me/584122853855" class="footer-col footer-col-contact">
+            <div class="footer-icon">
+              <img src="assets/Number.png" alt="Número de teléfono" class="footer-icon-img">
+            </div>
+            <div class="footer-contact-label">Contacto central</div>
+            <div class="footer-contact-number">+58 412-2853855</div>
+          </a>          
+          <!-- Columna 3: Dirección y redes -->
+          <div class="footer-col footer-col-location">
+            <a href="https://www.flow.page/fulldata" 
+   target="_blank" 
+   rel="noopener noreferrer"
+   class="footer-icon">
+  <img src="assets/Location.png" alt="Ubicación" class="footer-location-img">
+</a>
+            <a href="sedes.html" class="footer-location-sedes">
+              Oficinas Comerciales
+            </a>
+            <div class="footer-location-city">Maracaibo, Edo. Zulia</div>
+            <div class="footer-location-address">
+              <b>Calle 78, Sector Avenida 16</b><br>
+              Edit. Torre Condominio
+            </div>
+            <!-- Redes sociales -->
+            <div class="footer-social-icons">
+              <a href="https://wa.me/584122853855" target="_blank" title="WhatsApp" rel="noopener">
+                <img src="assets/ws.png" alt="WhatsApp" class="footer-social-img">
+              </a>
+              <a href="https://www.instagram.com/fulldata" target="_blank" title="Instagram" rel="noopener">
+                <img src="assets/ig.png" alt="Instagram" class="footer-social-img">
+              </a>
+              <a href="https://www.tiktok.com/@fulldata_ve" target="_blank" title="TikTok" rel="noopener">
+                <img src="assets/tik.png" alt="TikTok" class="footer-social-img">
+              </a>
+              <a href="https://www.facebook.com/fulldatainternet" target="_blank" title="Facebook" rel="noopener">
+                <img src="assets/fb.png" alt="Facebook" class="footer-social-img">
+              </a>
+              <a href="https://www.youtube.com/@fulldata_ve" target="_blank" title="YouTube" rel="noopener">
+                <img src="assets/yt.png" alt="YouTube" class="footer-social-img">
+              </a>
+              <a href="https://x.com/fulldata_ve" target="_blank" title="X (Twitter)" rel="noopener">
+                <img src="assets/x.png" alt="X (Twitter)" class="footer-social-img">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-links">
+          <a href="politica.html" class="footer-link">Política de Privacidad</a>
+          <span class="footer-separator">|</span>
+          <a href="terminos.html" class="footer-link">Términos de Uso</a>
+        </div>
+        <div class="footer-bottom">
+          © 2025 Full Data Comunicaciones C.A. RIF J-40958264-7 | Todos los derechos reservados.
+        </div>
+      </footer>
+
+    <!-- SCRIPTS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="js/script.js"></script>
+    
+    <!-- Script específico para planes -->
+    <script>
+// Script específico para planes - con ScrollTrigger corregido
+// Script específico para planes - con ScrollTrigger corregido
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('Inicializando scripts de planes...');
+    
+    // FUNCIÓN PARA ANIMAR TACÓMETROS (PARA TODOS LOS PLANES)
+    function animatePlanGauge(card) {
+        const gaugeFill = card.querySelector('.gauge-fill');
+        const speedNumber = card.querySelector('.speed-number');
+        const speedUnit = card.querySelector('.speed-unit');
+        
+        if (!gaugeFill || !speedNumber) return;
+        
+        // Obtener el valor como número
+        const targetSpeed = parseInt(speedNumber.getAttribute('data-speed'));
+        
+        // Determinar si mostrar en Gbps y el valor final
+        const showInGbps = targetSpeed >= 1000;
+        const finalValue = showInGbps ? targetSpeed / 1000 : targetSpeed;
+        const hasDecimal = targetSpeed === 2500;
+        
+        // Reset inicial
+        gaugeFill.style.strokeDashoffset = '157';
+        speedNumber.textContent = '0';
+        speedUnit.textContent = 'Mbps';
+        
+        // Crear objeto para animar
+        const counter = { value: 0 };
+        
+        const tl = gsap.timeline();
+        
+        if (showInGbps) {
+            // Fase 1: Contar hasta 999 Mbps
+            tl.to(counter, {
+                value: 999,
+                duration: 1.5,
+                ease: "power2.out",
+                onUpdate: () => {
+                    speedNumber.textContent = Math.floor(counter.value);
+                }
+            })
+            // Fase 2: Transición a Gbps
+            .to(counter, {
+                value: finalValue,
+                duration: 0.5,
+                ease: "power2.inOut", 
+                onUpdate: () => {
+                    if (hasDecimal) {
+                        speedNumber.textContent = counter.value.toFixed(1);
+                    } else {
+                        speedNumber.textContent = Math.floor(counter.value);
+                    }
+                },
+                onStart: () => {
+                    speedUnit.textContent = 'Gbps';
+                    gsap.fromTo([speedUnit, speedNumber], 
+                        { scale: 1.2, opacity: 0.8 },
+                        { scale: 1, opacity: 1, duration: 0.3, stagger: 0.1 }
+                    );
+                }
+            });
+        } else {
+            // Para Mbps normales
+            tl.to(counter, {
+                value: finalValue,
+                duration: 2,
+                ease: "power2.out",
+                onUpdate: () => {
+                    speedNumber.textContent = Math.floor(counter.value);
+                }
+            });
+        }
+        
+        // Tacómetro en paralelo
+        tl.to(gaugeFill, {
+            strokeDashoffset: 0,
+            duration: 2,
+            ease: "power2.out"
+        }, 0);
+    }
+
+    // TOGGLE DE REGIONES PARA PYMEs - VERSIÓN MEJORADA
+    function initPymeRegionToggle() {
+        const toggleContainer = document.querySelector('.toggle-container');
+        if (!toggleContainer) return;
+        
+        const toggleButtons = document.querySelectorAll('.toggle-btn');
+        let currentRegion = 'zulia';
+
+        function switchRegion(region) {
+            if (region === currentRegion) return;
+            
+            const currentActive = document.querySelector('.plans-region.active');
+            const nextActive = document.querySelector(`.plans-region[data-region="${region}"]`);
+            
+            if (!currentActive || !nextActive) return;
+            
+            currentRegion = region;
+            
+            // Animación de salida
+            gsap.to(currentActive, {
+                opacity: 0,
+                y: -20,
+                duration: 0.3,
+                ease: "power2.in",
+                onComplete: () => {
+                    currentActive.classList.remove('active');
+                }
+            });
+            
+            // Animación de entrada
+            gsap.fromTo(nextActive, {
+                opacity: 0,
+                y: 20
+            }, {
+                opacity: 1,
+                y: 0,
+                duration: 0.5,
+                delay: 0.1,
+                ease: "power2.out",
+                onStart: () => {
+                    nextActive.classList.add('active');
+                    
+                    // Configurar ScrollTrigger para las nuevas cards después de que entren
+                    setTimeout(() => {
+                        initScrollTriggersForRegion(nextActive);
+                        
+                        // Animar inmediatamente los tacómetros de las cards visibles
+                        const visibleCards = Array.from(nextActive.querySelectorAll('.plan-card')).filter(card => {
+                            const rect = card.getBoundingClientRect();
+                            return rect.top < window.innerHeight && rect.bottom > 0;
+                        });
+                        
+                        visibleCards.forEach((card, index) => {
+                            setTimeout(() => {
+                                animatePlanGauge(card);
+                            }, index * 300);
+                        });
+                    }, 300);
+                }
+            });
+            
+            // Actualizar toggle buttons
+            toggleButtons.forEach(btn => {
+                btn.classList.remove('active');
+                if (btn.dataset.region === region) {
+                    btn.classList.add('active');
+                }
+            });
+            
+            // Actualizar posición del slider
+            toggleContainer.setAttribute('data-active', region);
+            
+            // Refresh ScrollTrigger después del cambio
+            setTimeout(() => {
+                if (typeof ScrollTrigger !== 'undefined') {
+                    ScrollTrigger.refresh();
+                }
+            }, 600);
+        }
+
+        // Event listeners para el toggle
+        toggleButtons.forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                e.preventDefault();
+                const region = btn.dataset.region;
+                switchRegion(region);
+            });
+        });
+    }
+
+    // CONFIGURAR SCROLLTRIGGER PARA UNA REGIÓN ESPECÍFICA
+    function initScrollTriggersForRegion(regionElement) {
+        const cards = regionElement.querySelectorAll('.plan-card');
+        
+        cards.forEach((card, index) => {
+            // Si ya tiene ScrollTrigger, limpiarlo primero
+            const existingTrigger = ScrollTrigger.getById(`card-${card.dataset.region}-${index}`);
+            if (existingTrigger) {
+                existingTrigger.kill();
+            }
+            
+            // Configurar estado inicial
+            gsap.set(card, { opacity: 0, y: 50 });
+            
+            // Crear nuevo ScrollTrigger
+            ScrollTrigger.create({
+                id: `card-${regionElement.dataset.region}-${index}`,
+                trigger: card,
+                start: 'top 85%',
+                end: 'bottom 15%',
+                onEnter: () => {
+                    // Animación de entrada de la card
+                    gsap.to(card, {
+                        y: 0,
+                        opacity: 1,
+                        duration: 0.8,
+                        ease: 'power3.out',
+                        onComplete: () => {
+                            // Animar el tacómetro después de que la card entre
+                            setTimeout(() => {
+                                animatePlanGauge(card);
+                            }, 300);
+                        }
+                    });
+                },
+                onEnterBack: () => {
+                    // También animar cuando se haga scroll hacia arriba
+                    gsap.to(card, {
+                        y: 0,
+                        opacity: 1,
+                        duration: 0.8,
+                        ease: 'power3.out',
+                        onComplete: () => {
+                            setTimeout(() => {
+                                animatePlanGauge(card);
+                            }, 300);
+                        }
+                    });
+                },
+                once: false // Permitir múltiples activaciones
+            });
+        });
+    }
+
+    // ANIMACIONES INICIALES CON SCROLLTRIGGER
+    function initScrollAnimations() {
+        // Animación para cards de planes residenciales
+        gsap.utils.toArray('.plans-section .plan-card').forEach((card, index) => {
+            gsap.set(card, { opacity: 0, y: 50 });
+            
+            ScrollTrigger.create({
+                id: `residential-${index}`,
+                trigger: card,
+                start: 'top 85%',
+                end: 'bottom 15%',
+                onEnter: () => {
+                    gsap.to(card, {
+                        y: 0,
+                        opacity: 1,
+                        duration: 0.8,
+                        ease: 'power3.out',
+                        onComplete: () => {
+                            setTimeout(() => {
+                                animatePlanGauge(card);
+                            }, 300);
+                        }
+                    });
+                },
+                once: true
+            });
+        });
+
+        // Animación para cards de planes PYMEs activas inicialmente
+        const initialActiveRegion = document.querySelector('.pyme-section .plans-region.active');
+        if (initialActiveRegion) {
+            initScrollTriggersForRegion(initialActiveRegion);
+        }
+
+        // Efectos hover para todas las cards
+        document.querySelectorAll('.plan-card').forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                gsap.to(card, { y: -5, duration: 0.3, ease: 'power2.out' });
+            });
+            card.addEventListener('mouseleave', () => {
+                gsap.to(card, { y: 0, duration: 0.3, ease: 'power2.out' });
+            });
+        });
+    }
+
+    // INICIALIZACIÓN MEJORADA
+    function initPlansPage() {
+        console.log('Inicializando página de planes con ScrollTrigger...');
+        
+        // Registrar ScrollTrigger
+        if (typeof ScrollTrigger !== 'undefined') {
+            ScrollTrigger.config({ 
+                limitCallbacks: true,
+                ignoreMobileResize: true 
+            });
+        }
+        
+        // Inicializar toggle de regiones para PYMEs
+        initPymeRegionToggle();
+        
+        // Inicializar animaciones con ScrollTrigger
+        initScrollAnimations();
+        
+        // Refresh ScrollTrigger después de un tiempo
+        setTimeout(() => {
+            if (typeof ScrollTrigger !== 'undefined') {
+                ScrollTrigger.refresh();
+                console.log('ScrollTrigger refreshed');
+            }
+        }, 1500);
+    }
+
+    // ESPERAR DEPENDENCIAS
+    function checkDependencies() {
+        if (typeof gsap !== 'undefined' && typeof ScrollTrigger !== 'undefined') {
+            gsap.registerPlugin(ScrollTrigger);
+            initPlansPage();
+        } else {
+            setTimeout(checkDependencies, 100);
+        }
+    }
+
+    // Iniciar verificación de dependencias
+    checkDependencies();
+});
+    </script>
+</body>
+</html>
